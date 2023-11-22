@@ -3,7 +3,7 @@ body {
     line-height: 1.55;
     height: 100%;
     margin: 0 auto;
-    background: beige;
+    background: linear-gradient(210deg, rgb(239, 247, 194) 0 50%, rgb(194, 194, 245) 50% 100%)
 }
 h1 {
     font-weight: 800;
@@ -11,5 +11,5 @@ h1 {
     align-items: center;
 }
 .green {
-    color: rgb(180, 245, 84)
+    color: rgb(108, 181, 0)
 }
