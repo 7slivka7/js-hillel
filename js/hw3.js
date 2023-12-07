@@ -84,16 +84,12 @@ let h = prompt("Input a height of the Tree");
 h = parseInt(h);
 
 if (!isNaN(h) && h > 0) {
-  drawTree(h);
+  for (let i = 1; i <= h; i++) {
+    const spaces = ' '.repeat(h - i);
+    const stars = '*'.repeat(2 * i - 1);
+    console.log(spaces + stars);
+  }
 } else {
   console.log("Input a number");
-}
-
-function drawTree(height) {
-  for (let i = 1; i <= height; i++) {
-      const spaces = ' '.repeat(height - i);
-      const stars = '*'.repeat(2 * i - 1);
-      console.log(spaces + stars);
-  }
 }
 */
