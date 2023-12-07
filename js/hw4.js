@@ -30,12 +30,16 @@ function reverseString(str) {
 var str = prompt('Input a word or a message');
 isPalindrome(str);
 
+var str = prompt('Input a word or a message');
+isPalindrome(str);
 function isPalindrome(str) {
-  str = str.toLowerCase('');
-  str = str.replace(/\s/g,'');
-  let str1 = str.split('');
-  let myArr = str1.reverse('');
-  let j = myArr.join('');
+    str = str.toLowerCase('');
+    str= str.replace(/[.,\/#"'@!$%\^&\*;:{}=\-+_`~()]/g,'');
+    str= str.replace(/\d/g,'');
+    str= str.replace(/\s/g,'');
+    let str1 = str.split('');
+    let myArr = str1.reverse('');
+    let j = myArr.join('');
   return console.log(str == j);
 }
 */
