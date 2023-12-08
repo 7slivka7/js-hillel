@@ -63,3 +63,18 @@ while (a != 0 & b != 0){
 }
 console.log(a + b);
 */
+
+/*
+var a = prompt("Input first number");
+    a = parseInt(a);
+var b = prompt("Input second number");
+    b = parseInt(b);
+
+function findGCD(a, b) {
+  while (a != 0 && b != 0) {
+    a > b ? a = a % b : b = b % a;
+  }
+  return console.log(a + b);
+}
+findGCD(a, b)
+*/
