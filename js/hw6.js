@@ -84,4 +84,8 @@ retryExampleFunction().then(result => {
 }).catch(error => {
     console.error(error.message);
 });
+<<<<<<< HEAD
 */
+=======
+*/
+>>>>>>> 2ef26c83f8d17a6f0ed9999cb4a23034299a912b
